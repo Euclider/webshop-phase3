@@ -1,7 +1,7 @@
 # WebShop Phase3 implementation validation
 
 Date: 2026-10-07. Upstream: `Euclider/SkillScope@f2dd4a14a15d1751c81da3fa64e4c4c7cbb205e9`.
-Implementation is in an isolated archive copy. No main-thread code/process changes, SFT/RL runs, paid editor calls, git commit or push.
+Implementation and publication use an isolated checkout. No main-thread code/process changes, SFT/RL runs or paid editor calls were made. Git publication is limited to the dedicated `Euclider/webshop-phase3` repository.
 
 ## CPU evidence
 
