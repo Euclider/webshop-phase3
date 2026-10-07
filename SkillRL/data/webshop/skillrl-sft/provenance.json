@@ -1,0 +1,11 @@
+{
+  "dataset": "Jianwen/SkillRL-SFT-Data",
+  "revision": "bd3996c4e863ac59e6e4ab35549cf3741faf5e4f",
+  "upstream_path": "webshop/train-00000-of-00001.parquet",
+  "local_file": "train-00000-of-00001.parquet",
+  "rows": 2553,
+  "sha256": "2c4f045b18a7ffabf7779f8e0e416913debae6427cb70a323c79e30f34d2d051",
+  "license_declared_by_upstream": "mit",
+  "modified": false,
+  "verified_eval_nonoverlap": false
+}

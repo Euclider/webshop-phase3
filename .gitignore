@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.sqlite3*
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.log
+/runs/
+/checkpoints/
+/models/
+SkillRL/artifacts/
+SkillRL/agent_system/environments/env_package/webshop/webshop/data/
+SkillRL/agent_system/environments/env_package/webshop/webshop/search_engine/indexes*/
+SkillRL/agent_system/environments/env_package/webshop/webshop/search_engine/resources*/
+# Intentionally retain the small official SFT parquet in ordinary Git.

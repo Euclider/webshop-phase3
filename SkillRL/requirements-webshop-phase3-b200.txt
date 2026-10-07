@@ -1,0 +1,45 @@
+# Target profile; install in a NEW environment, not over an active run.
+# B200-compatible CUDA wheels/toolkit are required. GPU acceptance is mandatory.
+torch==2.11.0
+transformers==5.10.4
+vllm==0.22.0
+ray[default]==2.43.0
+tensordict==0.10.0
+torchdata==0.11.0
+accelerate==1.15.0
+openai==3.15.0
+hydra-core==1.3.2
+numpy==2.3.5
+pandas==2.3.3
+pyarrow==19.0.1
+gym==0.26.2
+gymnasium==0.29.1
+stable-baselines3==2.6.0
+beautifulsoup4==4.11.1
+flask
+selenium
+clean-text
+rank-bm25==0.2.2
+pyserini==0.17.0
+faiss-cpu==1.12.0
+spacy==3.8.16
+thefuzz==0.19.0
+python-Levenshtein
+nltk
+tiktoken
+pytest
+# Native verl dependencies: installation below uses --no-deps -e .
+codetiming==1.4.0
+datasets==4.0.0
+dill==0.3.8
+peft==0.21.0
+wandb==0.30.0
+packaging==25.0
+qwen-vl-utils[decord]==0.0.14
+einops==0.8.2
+pybind11
+pylatexenc
+gdown
+# Build/install these AFTER torch, with the target CUDA toolkit, then GPU-test:
+# flash-linear-attention==0.5.2
+# causal-conv1d==1.7.0
